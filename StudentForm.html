@@ -30,6 +30,7 @@
                   class="fname"
                   type="text"
                   name="name"
+                  size="20"
                   placeholder="Full name*"
                   required
                 />
@@ -40,8 +41,8 @@
                   <label><input class="l2" type="radio" value="none" name="gender" required/> <span>Female</span></label>
                 </div>
               </div>
-                <input type="text" name="name" placeholder="Email*" required/>
-                <input type="text" name="name" placeholder="Phone number*" required/>
+                <input type="email" name="email" placeholder="Email*" required/>
+                <input type="number" size="10" name="number" placeholder="Phone number*" required/>
                
               </div>
               <div class="checkbox">
@@ -53,17 +54,10 @@
                   </a>
                 </span>
               </div>
-            <button type="submit" href="#" onclick="myfun()">
+            <button type="submit" href="#">
                 Submit
               </button>
             </form>
     </div>
-
-    <script>
-        function myfun() {
-            alert("Submitted!");
-            reload();
-        }
-    </script>
 </body>
 </html>
