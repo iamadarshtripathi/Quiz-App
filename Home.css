@@ -1,0 +1,62 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body
+{
+    font-family:"montserrat";
+    width: 100%;
+    background-color:rgb(147, 190, 243);
+}
+
+
+#navbar
+{
+    top: 0;
+    height: 6rem;
+    
+    background-color: rgb(50, 47, 47);
+    width: 100%;
+}
+
+.heading h1{
+    color: rgb(255, 255, 255);
+    margin-left:10%;
+    font-size: 65px;
+
+
+}
+
+.nav-logo
+{
+    float: left;
+}
+
+
+.nav-logo a img
+{
+    margin-top: 7px;
+    margin-left: 1rem;
+    width: 8rem;
+    height: 4rem; 
+   
+}
+
+
+#main-gr2
+{
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 90%;
+}
+
+#main-gr1 p
+{
+    margin-top: 2rem;
+}
+
+

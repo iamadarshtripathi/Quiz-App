@@ -1,0 +1,160 @@
+
+
+body
+{
+    font-family:"montserrat";
+    width: 100%;
+    background-color:rgb(225, 255, 250);
+}
+
+
+#navbar
+{
+    top: 0;
+    height: 7rem;
+    
+    background-color: rgb(50, 47, 47);
+    width: 100%;
+}
+
+.heading h1{
+    color: rgb(255, 255, 255);
+    margin-left:10%;
+    font-size: 65px;
+
+
+}
+
+/* .nav-logo
+{
+    float: left;
+}
+
+
+.nav-logo a img
+{
+    /* margin-top: 7px; */
+    /* margin-left: 1rem;
+    width: 8rem;
+    height: 4rem;  */
+   
+/* } */ 
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans" , "sans-serif";
+    font-weight: 300;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.main-div{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(102, 204, 255);
+}
+
+/* .upper-div{
+    width: 60vw;
+    padding: 1rem 2rem;
+    margin-top: 1rem 0 4rem 0;
+    color: #390164;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+    font-size: 3.5rem;
+    text-align: center;
+} */
+
+.inner-div {
+    width: 40vw;
+    background-color: #fff;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+.inner-div h2 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-top: 1rem 0 4rem 0;
+}
+
+.inner-div li {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style: none;
+    
+}
+
+input {
+    cursor: pointer;
+}
+
+#submit , .btn {
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-size: 400;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: black;
+    margin-top: 4rem;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: rgb(102, 255, 148);
+    color: black;
+}
+
+#showScore {
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+
+#showScore h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#showScore .btn
+{
+    margin-top: 2rem;
+    background-color: aquamarine;
+    color: #2d3436;
+}
+
+#showScore .btn:hover
+{
+    margin-top: 2rem;
+    background-color: black;
+    color: #fff;
+}
+
+
+.scoreArea {
+    display: none;
+}
+

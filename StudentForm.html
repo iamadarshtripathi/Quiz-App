@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="StudentForm.css">
+</head>
+<body>
+    <div>
+        <div class="upper-block" id="navbar">
+                <div class="nav-logo">
+                    <a class="navbar-brand" href="Home.html"> <img src="https://cdn-icons-png.flaticon.com/512/2491/2491418.png" alt="realLOGO"></a>
+                </div>
+                <div class="heading">
+                    <h1>TEST YOUR SKILL</h1>
+                </div>
+        </div>
+
+
+        <div class="lower-block">
+            <form action="StudentForm.html">
+              <div class="title">
+                <i class="fas fa-pencil-alt"></i>
+                <h2>Student Register Form</h2>
+              </div>
+              <div class="info">
+                <input
+                  class="fname"
+                  type="text"
+                  name="name"
+                  placeholder="Full name*"
+                  required
+                />
+                <div class="question">
+                <p>Gender<span class="required">*</span></p>
+                <div class="question-answer">
+                  <label><input  type="radio" value="none" name="gender" required/> <span>Male</span></label>
+                  <label><input class="l2" type="radio" value="none" name="gender" required/> <span>Female</span></label>
+                </div>
+              </div>
+                <input type="text" name="name" placeholder="Email*" required/>
+                <input type="text" name="name" placeholder="Phone number*" required/>
+               
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="checkbox" required/>
+                <span>
+                  I agree to the{" "}
+                  <a href="https://www.google.com/">
+                    Privacy Poalicy for Quiz.
+                  </a>
+                </span>
+              </div>
+            <button type="submit" href="#" onclick="myfun()">
+                Submit
+              </button>
+            </form>
+
+            <a href="Course.html"><button type="submit" href="Course.html">
+                Courses Quiz
+              </button></a>
+            </div>
+    </div>
+
+    <script>
+        function myfun() {
+            alert("Submitted!");
+            reload();
+        }
+    </script>
+</body>
+</html>
